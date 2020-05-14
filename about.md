@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+State and local fiscal issues, nonprofit financial management, transportation finance; GIS, statistics, coding... and anything else I care to research. I use this blog to keep research notes, to collect teaching cases, and to exchanges ideas.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:zrzhao@umn.edu)
