@@ -8,4 +8,4 @@ State and local fiscal issues, nonprofit financial management, transportation fi
 
 ### Contact me
 
-[email@domain.com](mailto:zrzhao@umn.edu)
+[zrzhao@umn.edu](mailto:zrzhao@umn.edu)
