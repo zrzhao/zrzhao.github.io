@@ -86,4 +86,4 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-cayman
-# I change the them to "minima"
+# I change the theme.
