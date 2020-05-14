@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: *Fiscal Issues & Geeky Stuff...*
+name: <b>Fiscal Issues & Geeky Stuff</b>
 
 # Short bio or description (displayed in the header)
 description: Fiscal issues, statistics, coding, and other geeky stuff
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: zrzhao
   instagram:
-  linkedin:
+  linkedin: zhirongzhao
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: zhaozhirong
