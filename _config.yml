@@ -85,5 +85,5 @@ exclude:
   - README.md
   - CNAME
 
-theme: minima
+theme: jekyll-theme-cayman
 # I change the them to "minima"
