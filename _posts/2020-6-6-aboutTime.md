@@ -29,7 +29,7 @@ Selenium also has a way to set explicit waits, which were defined to wait for a 
 
 There are some convenience methods to have the following codes wait only as long as required. One way is to use `WebDriverWait` in combination with `ExpectedCondition` through [a `try-except' statement](https://selenium-python.readthedocs.io/waits.html). 
 
-I use the easier one, `time.sleep()`, and set it to wait for four seconds after the database portal is advanced to a new page, and eight seconds for each individual project to load, before I capture its url and other information.   
+I use the easier one, `time.sleep()`, and set it to wait for four seconds after the database portal is advanced to a new page. 
 
 ```python
 elem = 'ant-pagination-next'
@@ -37,6 +37,7 @@ linkElem = driver.find_elements_by_class_name(elem)
 linkElem[0].click() # Open the next page  
 time.sleep(4) # Allow time for webpage to load
 ```
+And I allow eight seconds for each individual project to load, before I capture its url and other information.  
 
 ```python
 linkElem[i].click()
