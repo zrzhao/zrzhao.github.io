@@ -1,8 +1,8 @@
 ---
 layout: post
-title: First web scrapping projet
+title: First web scraping projet
 ---
-In recent weeks, just finished my first `Python` webscrapping project. It was to capture information about thousands of projects from an online governmental database. In a series of posts, I am writing down some key steps in developing the codes, in particular, some obstacles I encountered, and the solutions or get-arounds. Notes and references for myself, and, a [PoW](https://en.wikipedia.org/wiki/Proof_of_work).
+I just finished my first `Python` webscrapping project. It was to capture information about thousands of projects from an online governmental database. Here I am writing down some key steps in developing the codes, in particular, some obstacles I encountered, and the solutions or get-arounds. Notes and references for myself, and, a [PoW](https://en.wikipedia.org/wiki/Proof_of_work).
 
 # Open the webpage 
 
@@ -26,7 +26,7 @@ A great context for me to practice simulating mouse click with `Selenium`.
 
 # Click to a project page
 
-Select the first project name, right click to `inspect`, and observe the html codes. The five project links in this webpage were defined with a class name `projectName`. With `driver.find_elements_by_class_name()`, I got a list of length five. 
+Select the first project name, right click to `inspect`, and observe the html codes. The five project links in this webpage were defined with a class name `projectName`. With `find_elements_by_class_name`, I got a list of length five. 
 
 I simulate a click with the first project link, switch to the new tab that is just opened, and check its url address.   
 
@@ -128,11 +128,5 @@ def Multi_page(p_start, p_end):
         
     # Get back to the first page
     return_from_page(p_end)
-        
-# Test run the function, from page 3 to 5. 
-urls = []
-Multi_page(3,6)
-len(urls)
 ```
-
 
