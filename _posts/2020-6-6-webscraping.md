@@ -4,7 +4,7 @@ title: First web scraping projet
 ---
 I just finished my first `Python` webscrapping project. It was to capture information about thousands of projects from an online governmental database. Here I am writing down some key steps in developing the codes, in particular, some obstacles I encountered, and the solutions or get-arounds. Notes and references for myself, and, a [PoW](https://en.wikipedia.org/wiki/Proof_of_work).
 
-# Open the webpage 
+## Open the webpage 
 
 It is tedious to install the webdriver mannually. You need to download the right version of webdriver for your browser, move the file to a global path on your system, or alternativley, set up the `PATH` to be executable in terminal through `sudo nano`. Lots of tutorial on line, like [this](https://www.swtestacademy.com/install-chrome-driver-on-mac/). 
 
@@ -24,7 +24,7 @@ Never mind the Chinese language in this webpage. Basically, it is a database por
 
 A great context for me to practice simulating mouse click with `Selenium`. 
 
-# Click to a project page
+## Click to a project page
 
 Select the first project name, right click to `inspect`, and observe the html codes. The five project links in this webpage were defined with a class name `projectName`. With `find_elements_by_class_name`, I got a list of length five. 
 
@@ -45,7 +45,7 @@ Before checking with other projects, I need to close the current tab and switch 
 driver.close() 
 driver.switch_to.window(driver.window_handles[0])
 ```
-# Get url links for multiple projects
+## Get url links for multiple projects
 
 Now that it is working, I wrap around these steps and define a functoin `Multi_pj()` to get url links for all projects shown in this page. 
 
@@ -66,7 +66,7 @@ def Multi_pj():
         driver.switch_to.window(driver.window_handles[0])
 ```
 
-# Advance to additional pages
+## Advance to additional pages
 
 There are multiple web elements for advancing to (or retreating from) other pages to see additional projects. To adance a page, use the element with a class name `ant-pagination-next`. To move back a page, use `ant-pagination-prev`. 
 
@@ -104,7 +104,7 @@ def return_from_page(p):
         linkElem = driver.find_elements_by_class_name(elem)
         linkElem[0].click()  
 ```
-# Get project urls from multiple pages
+## Get project urls from multiple pages
 
 Now I can combine all the pieces and define a function to get project information -- for example, their url links -- from any specific page (`p_start`) in the database portal to another specific page (`p_end`).  
 
