@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First web scrapping projet
+title: test
 ---
 In recent weeks, just finished my first `Python` webscrapping project. It was to capture information about thousands of projects from an online governmental database. In a series of posts, I am writing down some key steps in developing the codes, in particular, some obstacles I encountered, and the solutions or get-arounds. Notes and references for myself, and, a [PoW](https://en.wikipedia.org/wiki/Proof_of_work).
 
