@@ -1,6 +1,6 @@
 ---
 layout: post
-title: It's all about time.
+title: It's all about time
 ---
 
 In the [web scraping project](https://zrzhao.github.io/webscraping/), the codes seem to work well with several test pages, but I soon noticed some issues when I tried to scale it up with all projects, which was about 10,000 at that time. 
