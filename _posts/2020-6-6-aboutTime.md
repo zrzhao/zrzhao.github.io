@@ -27,7 +27,7 @@ driver.get('https://www.cpppc.org:8082/inforpublic/homepage.html#/searchresult')
 
 Selenium also has a way to set explicit waits, which were defined to wait for a certain condition to occur before proceeding further in the code. The extreme case of this is `time.sleep()`, which sets the condition to an exact time period to wait.
 
-There are some convenience methods to have the following codes wait only as long as required. One way is to use `WebDriverWait` in combination with `ExpectedCondition` through [a `try-except' statement](https://selenium-python.readthedocs.io/waits.html). 
+There are some convenience methods to have the following codes wait only as long as required. One way is to use `WebDriverWait` in combination with `ExpectedCondition` through [a try-except statement](https://selenium-python.readthedocs.io/waits.html). 
 
 I use the easier one, `time.sleep()`, and set it to wait for four seconds after the database portal is advanced to a new page. 
 
