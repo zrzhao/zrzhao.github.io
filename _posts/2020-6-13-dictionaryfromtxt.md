@@ -28,9 +28,9 @@ The codes below split the string in two steps. First, I get a list with `split("
 
 ```python
 # Prepare the nested list
-list = text.split("\n")
-list_2 = [i.split(',') for i in list]
-list_2[:5]  # see the first five items
+list_a = text.split("\n")
+list_b = [i.split(',') for i in list_a]
+list_b[:5]  # see the first five items
 ```
 Output: 
 ```python
