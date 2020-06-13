@@ -11,7 +11,7 @@ The example file is [state_abbr.txt](https://drive.google.com/open?id=1wHBZeUIVT
 
 Good time to check out the built-in function `open` in [Python 3.8 official documentation](https://docs.python.org/3/library/functions.html#open). The reading mode `r` is by default but it is a good habit to add it. The keyword argument `encoding` may be needed but not in this case. 
 
-I Use the `with` statement to open the file saves the hassle to close the file. Some related examples [here](https://thispointer.com/python-open-a-file-using-open-with-statement-benefits-explained-with-examples/). The 'next()' function is used to skip the header line. 
+I use the `with` statement to open the file saves the hassle to close the file. Some related examples [here](https://thispointer.com/python-open-a-file-using-open-with-statement-benefits-explained-with-examples/). The 'next()' function is used to skip the header line. 
 
 ```python
 # Read in a txt file
