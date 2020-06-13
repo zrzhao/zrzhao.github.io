@@ -39,3 +39,4 @@ Now that the list is in this format, it can be easily converted into a dictionar
 state_abbr = dict(list_2)
 print(state_abbr)
 ```
+<p>&nbsp;</p>
