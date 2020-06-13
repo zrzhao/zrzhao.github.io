@@ -41,7 +41,7 @@ list_2[:5]  # see the first five items
 
 ## Convert the nested list into dictionary
 
-Now that the list is in this format, it can be easily converted into a dictionary with `dict()`.  (see [documentation](https://docs.python.org/3/tutorial/datastructures.html)). 
+Now that the list is in the required format, it can be easily converted into a dictionary with `dict()`.  (see [documentation](https://docs.python.org/3/tutorial/datastructures.html)). 
 
 ```python
 state_abbr = dict(list_2)
