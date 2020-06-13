@@ -32,13 +32,14 @@ list = text.split("\n")
 list_2 = [i.split(',') for i in list]
 list_2[:5]  # see the first five items
 ```
-
+Output: 
+```python
     [['Alabama', 'AL'],
      ['Alaska', 'AK'],
      ['Arizona', 'AZ'],
      ['Arkansas', 'AR'],
      ['California', 'CA']]
-
+```
 ## Convert the nested list into dictionary
 
 Now that the list is in the required format, it can be easily converted into a dictionary with `dict()`.  (see [documentation](https://docs.python.org/3/tutorial/datastructures.html)). 
@@ -47,8 +48,8 @@ Now that the list is in the required format, it can be easily converted into a d
 state_abbr = dict(list_2)
 state_abbr
 ```
-
-
+Output: 
+```python
     {'Alabama': 'AL',
      'Alaska': 'AK',
      'Arizona': 'AZ',
@@ -101,5 +102,5 @@ state_abbr
      'West Virginia': 'WV',
      'Wisconsin': 'WI',
      'Wyoming': 'WY'}
-
+```
 <p>&nbsp;</p>
